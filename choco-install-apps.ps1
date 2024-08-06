@@ -8,14 +8,14 @@ $packagesBasic = @{
     '7zip'='';
     notepadplusplus=''; 
     vlc=''; 
-    irfanview='';
-    irfanviewplugins='';
-    adobereader='--params="/UpdateMode:4"';
+    # irfanview='';
+    # irfanviewplugins='';
+    # adobereader='--params="/UpdateMode:4"';
     #foxitreader='--ia="/MERGETASKS=!desktopicon,!displayinbrowser /COMPONENTS=*pdfviewer,*ffse,*installprint,!ffaddin,*ffspellcheck,!connectedpdf.!installprint\wordaddin,!installprint\pptaddin,!installprint\exceladdin /DIR=D:\Programme\choco\foxitreader"';
 
 # --- Browsers ---
-    googlechrome='';
-    #firefox='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
+    # googlechrome='';
+    firefox='--params="/l:de /NoDesktopShortcut /RemoveDistributionDir"';
     #opera='--params="/NoDesktopShortcut /NoTaskbarShortcut"';
 
 # --- File Sync Tools ---
@@ -25,18 +25,23 @@ $packagesBasic = @{
 # --- Collaboration Tools ---
     zoom='';    
     'microsoft-teams'='';
-    #discord='';
+    discord='';
 
 # --- System administration ---
     chocolateygui='';    
     windirstat='';
-    teamviewer='';
+    # teamviewer='';
     'cpu-z.install'='';
     'freecommander-xe.install'='';
 
 # --- Crypto ---
-    keepass='';
+    # keepass='';
     #veracrypt='';
+    '1password'='';
+
+# --- Other ---
+    qbittorrent='';
+    'sumatrapdf.install'='';
 } 
 
 
@@ -46,11 +51,11 @@ $packagesDev = @{
     vscode='--params="/NoDesktopIcon /NoQuicklaunchIcon"';
     git='';
     'github-desktop'='';
-    sourcetree='';
+    # sourcetree='';
 
 # --- API Clients ---
-    postman='';
-    'insomnia-rest-api-client'='';
+    # postman='';
+    # 'insomnia-rest-api-client'='';
 
 # --- Cloud ---
     #'azure-cli'='';
