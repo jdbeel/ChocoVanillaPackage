@@ -42,6 +42,7 @@ $packagesBasic = @{
 # --- Other ---
     qbittorrent='';
     'sumatrapdf.install'='';
+    googlejapaneseinput='';
 } 
 
 
